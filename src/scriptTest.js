@@ -1,0 +1,1 @@
+console.log("This message comes from a script embedded in the root html file")
