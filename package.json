@@ -1,21 +1,26 @@
 {
-  "name": "chapter_19",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate Webpack Configuration",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack --mode production",
-    "serve": "webpack-dev-server --mode development"
+    "webpack": "/node_modules/.bin/webpack"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yachabach/boilerplate.git"
+  },
+  "author": "Dave Yachabach",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yachabach/boilerplate/issues"
+  },
+  "homepage": "https://github.com/yachabach/boilerplate#readme",
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "babel-loader": "^8.0.5",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
